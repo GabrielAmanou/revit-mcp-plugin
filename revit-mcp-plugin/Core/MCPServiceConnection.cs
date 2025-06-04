@@ -12,8 +12,8 @@ namespace revit_mcp_plugin.Core
         {
             try
             {
-                // 获取socket服务
-                SocketService service = SocketService.Instance;
+                // 获取 HTTP 服务
+                HttpService service = HttpService.Instance;
 
                 if (service.IsRunning)
                 {

@@ -84,7 +84,7 @@ revit-mcp-plugin/
 │   ├── MCPServiceConnection.cs               # MCP服务连接
 │   ├── RevitCommandRegistry.cs               # Revit命令注册
 │   ├── Settings.cs                           # 应用程序设置
-│   └── SocketService.cs                      # Socket服务实现
+│   └── HttpService.cs                      # HTTP服务实现
 │
 ├── Models/                                   # 数据模型
 │   └── ...                                   # 各种数据模型类
@@ -116,7 +116,7 @@ revit-mcp-plugin/
 - MCPServiceConnection.cs: MCP服务连接
 - RevitCommandRegistry.cs: 注册和管理可用的Revit命令
 - Settings.cs: 触发显示设置界面
-- SocketService.cs: 实现与外部客户端的Socket通信
+- HttpService.cs: 实现与外部客户端的HTTP通信
 
 ### Models 目录
 包含数据模型类，用于在系统各部分之间传递数据。
