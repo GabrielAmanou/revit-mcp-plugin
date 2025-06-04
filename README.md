@@ -84,7 +84,7 @@ revit-mcp-plugin/
 │   ├── MCPServiceConnection.cs               # MCP service connection
 │   ├── RevitCommandRegistry.cs               # Revit command registration
 │   ├── Settings.cs                           # Application settings
-│   └── SocketService.cs                      # Socket service implementation
+│   └── HttpService.cs                        # HTTP service implementation
 │
 ├── Models/                                   # Data models
 │   └── ...                                   # Various data model classes
@@ -116,7 +116,7 @@ Contains the core functionality and entry point of the plugin:
 - MCPServiceConnection.cs: MCP service connection
 - RevitCommandRegistry.cs: Registers and manages available Revit commands
 - Settings.cs: Triggers the display of the settings interface
-- SocketService.cs: Implements Socket communication with external clients
+- HttpService.cs: Implements HTTP communication with external clients
 
 ### Models Directory
 Contains data model classes used to pass data between different parts of the system.
